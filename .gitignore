@@ -9,6 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+*/Library/*
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -112,6 +113,9 @@ ProjectSettings/PackageManagerSettings.asset
 ProjectSettings/Packages/*
 
 Packages/*
+Library
+
+.pid
 
 # VS Code workspace
 .vscode/
@@ -155,3 +159,4 @@ build/
 # Yarn (if you're using Yarn)
 /.yarn/
 
+/Library/
