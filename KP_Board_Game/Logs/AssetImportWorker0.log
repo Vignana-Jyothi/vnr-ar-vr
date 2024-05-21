@@ -264,3 +264,35 @@ Received Import Request.
 Start importing Assets/Low Poly Fruits/Prefabs/apple.prefab using Guid(426b44a7575f71e479fab4f4e8431989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48567ae9cbb1d68a8231dccf3112223f') in 0.009279 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 906.182608 seconds.
+  path: Assets/Scenes/snakes_ladders.jpeg
+  artifactKey: Guid(2b01b9b0d5eabab3180a78a13597d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/snakes_ladders.jpeg using Guid(2b01b9b0d5eabab3180a78a13597d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c755bbca44daa4fc72ae701b219ece8c') in 0.012137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.586995 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b09f9f991e9a4270b11cd2357e5a7e') in 0.000605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.932083 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a240cd7709ae8d300be1b9b37d1ce3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(a240cd7709ae8d300be1b9b37d1ce3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46efa26d770755977bd8ab7b8cd16cad') in 0.000482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.368369 seconds.
+  path: Assets/Scenes/BallBoardScene.unity
+  artifactKey: Guid(678498f4aeb0f0ca58c64c54475ab810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BallBoardScene.unity using Guid(678498f4aeb0f0ca58c64c54475ab810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af08c0a42fb0acaf7c6e0dd260973cea') in 0.000622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
