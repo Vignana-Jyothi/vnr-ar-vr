@@ -224,3 +224,11 @@ Received Import Request.
 Start importing Assets/Low Poly Fruits/Prefabs/pear.prefab using Guid(0f3575c567ebe8241a4a6ad511fd7017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3fc9bd67b1adade49479d174f84c2b') in 0.024547 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1356.290943 seconds.
+  path: Assets/Materials/Red.mat
+  artifactKey: Guid(3e95ae62eaee5b34cab6676b0bc10ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Red.mat using Guid(3e95ae62eaee5b34cab6676b0bc10ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdb686ecde3c501df7d8311867dc4d4') in 0.018697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

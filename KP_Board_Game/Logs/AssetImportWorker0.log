@@ -296,3 +296,11 @@ Received Import Request.
 Start importing Assets/Scenes/BallBoardScene.unity using Guid(678498f4aeb0f0ca58c64c54475ab810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af08c0a42fb0acaf7c6e0dd260973cea') in 0.000622 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 422.220113 seconds.
+  path: Assets/Materials/Green.mat
+  artifactKey: Guid(6603f86e7cbbb0f128967e1d0ef21b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Green.mat using Guid(6603f86e7cbbb0f128967e1d0ef21b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29dd07e7e07685e258e3de1232a81e76') in 0.031721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
