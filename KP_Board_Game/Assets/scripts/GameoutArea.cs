@@ -7,6 +7,8 @@ using TMPro;
 public class GameoutArea : MonoBehaviour
 {
     public TextMeshProUGUI gameOverText;
+    public AudioSource gameOverSound;
+
 
     void OnTriggerEnter(Collider other)
     {
@@ -17,6 +19,7 @@ public class GameoutArea : MonoBehaviour
             gameOverText.text = "Oops.. That's Sad!!";
             gameOverText.gameObject.SetActive(true);
             Time.timeScale = 0;
+            gameOverSound.Play();
         }
     }
 }

@@ -11,6 +11,7 @@ public class ScoreManager : MonoBehaviour
     public GameObject winText;
     private int score = 0;
     private static int MAX_COINS = 4; 
+    public AudioSource coinSound;
 
     void Awake()
     {
@@ -35,6 +36,7 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(int amount)
     {
         score += amount;
+        coinSound.Play();
         UpdateScoreText();
         if (score == MAX_COINS) {
             Debug.Log("You Win");
