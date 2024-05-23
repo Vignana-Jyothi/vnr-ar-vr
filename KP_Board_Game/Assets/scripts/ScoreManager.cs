@@ -1,14 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-using TMPro; // Add this line to import the TextMeshPro namespace
+using TMPro;
 
 
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
     public TextMeshProUGUI scoreText;
+    public GameObject winText;
     private int score = 0;
+    private static int MAX_COINS = 4; 
 
     void Awake()
     {
@@ -17,6 +19,7 @@ public class ScoreManager : MonoBehaviour
         {
             instance = this;
             Debug.Log("new instane is created");
+            winText.gameObject.SetActive(false);
         }
         else
         {
@@ -33,6 +36,10 @@ public class ScoreManager : MonoBehaviour
     {
         score += amount;
         UpdateScoreText();
+        if (score == MAX_COINS) {
+            Debug.Log("You Win");
+            winText.gameObject.SetActive(true);
+        }
     }
 
     void UpdateScoreText()
