@@ -11,6 +11,7 @@ public class BallMovement : MonoBehaviour
         Debug.Log("Start function called. Rigidbody component initialized.");
     }
 
+
     void FixedUpdate()
     {
         // Get input from arrow keys
@@ -36,7 +37,6 @@ public class BallMovement : MonoBehaviour
         position.z = Mathf.Clamp(position.z, -100.5f, 100.5f); // Adjust these values based on your wall positions
         position.y = Mathf.Clamp(position.y, -10.5f, 10.0f); // To avoid infinite fall.
         transform.position = position;
-        Debug.Log("Ball position clamped within boundaries.");
     }
 }
 
