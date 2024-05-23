@@ -39,6 +39,7 @@ public class ScoreManager : MonoBehaviour
         if (score == MAX_COINS) {
             Debug.Log("You Win");
             winText.gameObject.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 
