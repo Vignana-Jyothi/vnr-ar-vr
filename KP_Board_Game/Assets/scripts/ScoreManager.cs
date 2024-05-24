@@ -9,9 +9,11 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager instance;
     public TextMeshProUGUI scoreText;
     public GameObject winText;
+    private int coinsCollected = 0;
     private int score = 0;
     private static int MAX_COINS = 4; 
     public AudioSource coinSound;
+    public AudioSource goldenBallCoinSound;
 
     void Awake()
     {
@@ -36,9 +38,14 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(int amount)
     {
         score += amount;
-        coinSound.Play();
+        if (amount == 1) {
+            coinSound.Play();
+        } else {
+            goldenBallCoinSound.Play();
+        }
+        coinsCollected++;
         UpdateScoreText();
-        if (score == MAX_COINS) {
+        if (coinsCollected == MAX_COINS) {
             Debug.Log("You Win");
             winText.gameObject.SetActive(true);
             Time.timeScale = 0;
